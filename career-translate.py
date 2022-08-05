@@ -14,7 +14,7 @@ def main(file_name):
         for linia in plik.readlines():
             a = json.loads(linia)
             a["name"] = profesje[a["name"]]
-            print(a)
+            print(json.dumps(a))
 
 
 if __name__ == "__main__":
