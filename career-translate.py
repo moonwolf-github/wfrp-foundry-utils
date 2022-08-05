@@ -13,7 +13,11 @@ def main(file_name):
     with open(file_name) as plik:
         for linia in plik.readlines():
             a = json.loads(linia)
-            a["name"] = profesje[a["name"]]
+            try:
+                translated_name = profesje[a["name"]]
+            except KeyError:
+                translated_name = a["name"]
+            a["name"] = translated_name
             print(json.dumps(a))
 
 
