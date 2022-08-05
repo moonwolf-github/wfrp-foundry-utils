@@ -17,7 +17,17 @@ def main(file_name):
                 translated_name = profesje[a["name"]]
             except KeyError:
                 translated_name = a["name"]
+            try:
+                translated_group = profesje[a["data"]["careergroup"]["value"]]
+            except KeyError:
+                translated_group = a["data"]["careergroup"]["value"]
             a["name"] = translated_name
+            a["data"]["careergroup"]["value"] = translated_group
+            desc = a["data"]["description"]["value"].split("{")
+            link = desc[1].split("}")
+            link[0] = translated_group
+            desc[1] = "}".join(link)
+            a["data"]["description"]["value"] = "{".join(desc)
             print(json.dumps(a))
 
 
