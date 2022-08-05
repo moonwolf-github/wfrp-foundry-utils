@@ -1,256 +1,256 @@
-Clerk
+Clerk=Przekupień
 Apothecary=Aptekarz
-Brigand
-Body Snatcher
-Master Wizard
-Watch Sergeant
-Landsman
-Herb Gatherer
-Priest Captain
-Guildmaster
-Trader
-Beggar King
-Hitman
-Village Elder
-Master Pedlar
-Mine Foreman
-Student Engineer
-Agent
-Toll Keeper
-Scout
-Maestro
-Master Thief
-Mystic
-Racketeer
-Swindler
-Menial
-Bounty Hunter General
-Priest Sergeant
-River Elder
-Hedge Witch
-Broker
-Physician
-Merchant Prince
-Courier-Captain
-Sergeant
-Road Sergeant
-Outlaw
-Dock Master
-Bailiff
-Court Physician
-Guard
-Master Artisan
-Apprentice Artisan
-Riverwise
-Chartered Engineer
-Sleuth
-Prowler
-Priest
-Warlock
-Procurer
-Scion
-Burgomeister
-Watch Recruit
-Foreman
-Wyrd
-Riverwarden
-Hunter
-Guide
-Duelmaster
-Envoy
-Warden
-Knight of the Inner Circle
-Messenger
-Inquisitor
-Bawd
-Shipsword
-Tomb Robber
-Interrogator
-Soldier
-Knight
-Squire
-Route Master
-Counsellor
-First Knight
-Postilion
-Noble
-Town Councilor
-Huntsmaster
-Master Fence
-Hustler
-Charlatan
-Assassin
-Master Pilot
-Professor
-Engineer
-Bounty Hunter
-Wizard
-Thief
-Pit Champion
-Courier
-Rabble Rouser
-Sage
-Trapper
-Nun
-Watchman
-Boat-hand
-Watch Captain
-Hexer
-Hedge Master
-Master Engineer
-Witch
-Gang Boss
-Novitiate (Warrior Priest)
-Pamphleteer
-Ship's Master
-Pugilist
-Pilot
-Student
-Agitator
-Ringleader
-Beggar
-Master Smuggler
-Spy
-Pit Legend
-Hedge Apprentice
-Attendant
-Explorer
-Cavalryman
-Con Artist
-Officer
-River Recruit
-Barge Master
-Artist
-Servant
-Chancellor
-Wrecker
+Brigand=Zbój
+Body Snatcher=Porywacz Zwłok
+Master Wizard=Mistrz Magii
+Watch Sergeant=Sierżant Straży
+Landsman=Szczur Lądowy
+Herb Gatherer=Zbieracz Ziół
+Priest Captain=Kapłan-kapitan
+Guildmaster=Mistrz Cechu
+Trader=Handlarz
+Beggar King=Król Żebraków
+Hitman=Płatny Morderca
+Village Elder=Starszy Wioski
+Master Pedlar=Doświadczony Domokrążca
+Mine Foreman=Mistrz Górnictwa
+Student Engineer=Student Inżynierii
+Agent=Agent
+Toll Keeper=Mytnik
+Scout=Zwiadowca
+Maestro=Maestro
+Master Thief=Mistrz Złodziejski
+Mystic=Mistyk
+Racketeer=Rekieter
+Swindler=Kanciarz
+Menial=Posługacz
+Bounty Hunter General=Legendarny Łowca Nagród
+Priest Sergeant=Kapłan-sierżant
+River Elder=Starszy Rzeczny
+Hedge Witch=Guślarz
+Broker=Pośrednik
+Physician=Medyk
+Merchant Prince=Patrycjusz
+Courier-Captain=Kapitan Kurieróœ
+Sergeant=Sierżant
+Road Sergeant=Sierżant Strażników Dróg
+Outlaw=Banita
+Dock Master=Mistrz Dokerów
+Bailiff=Zarządca
+Court Physician=Nadworny Medyk
+Guard=Ochroniarz
+Master Artisan=Mistrz Rzemiosła
+Apprentice Artisan=Czeladnik
+Riverwise=Znawca Rzeki
+Chartered Engineer=Mistrz Inżynierii
+Sleuth=Szpicel
+Prowler=Bandzior
+Priest=Kapłan
+Warlock=Arcyczarownica
+Procurer=Stręczyciel
+Scion=Dziedzic
+Burgomeister=Burmistrz
+Watch Recruit=Rekrut Straży
+Foreman=Brygadzista
+Wyrd=Wiedźma
+Riverwarden=Strażnik Rzeczny
+Hunter=Łowca
+Guide=Przewodnik
+Duelmaster=Mistrz Pojedynków
+Envoy=Poseł
+Warden=Namiestnik
+Knight of the Inner Circle=Rycerz Wewnętrznego Kręgu
+Messenger=Posłaniec
+Inquisitor=Inkwizytor
+Bawd=Rajfur
+Shipsword=Żołnierz Okrętowy
+Tomb Robber=Rabuś Grobowców
+Interrogator=Oprawca
+Soldier=Żołnierz
+Knight=Rycerz
+Squire=Giermek
+Route Master=Mistrz Szlaków
+Counsellor=Radca
+First Knight=Pierwszy Rycerz
+Postilion=Foryś
+Noble=Szlachcic
+Town Councilor=Rajca Miejski
+Huntsmaster=Nadworny Łowca
+Master Fence=Mistrz Paserów
+Hustler=Naganiacz
+Charlatan=Szarlatan
+Assassin=Skrytobójca
+Master Pilot=Legendarny Pilot
+Professor=Profesor
+Engineer=Inżynier
+Bounty Hunter=Łowca Nagród
+Wizard=Czarodziej
+Thief=Złodziej
+Pit Champion=Mistrz Areny
+Courier=Kurier
+Rabble Rouser=Podżegacz
+Sage=Widzący
+Trapper=Traper
+Nun=Mniszka
+Watchman=Strażnik
+Boat-hand=Chłopiec Pokładowy
+Watch Captain=Kapitan Straży
+Hexer=Szeptucha
+Hedge Master=Starszy Guślarzy
+Master Engineer=Renomowany Inżynier
+Witch=Czarownica
+Gang Boss=Głowa Gangu
+Novitiate (Warrior Priest)=Nowicjusz Kapłanów Bitewnych
+Pamphleteer=Pamflecista
+Ship's Master=Kapitan Statku
+Pugilist=Pięściarz
+Pilot=Starszy Pilot
+Student=Student
+Agitator=Agitator
+Ringleader=Herszt Rajfurów
+Beggar=Żebrak
+Master Smuggler=Doświadczony Przemytnik
+Spy=Szpieg
+Pit Legend=Legenda Areny
+Hedge Apprentice=Uczeń Guślarza
+Attendant=Pokojowy
+Explorer=Odkrywca
+Cavalryman=Kawalerzysta
+Con Artist=Oszust
+Officer=Oficer
+River Recruit=Rekrut Rzeczny
+Barge Master=Kapitan Barki
+Artist=Artysta
+Servant=Służący
+Chancellor=Kanclerz
+Wrecker=Pirat Rzeczny
 Apothecary's Apprentice=Uczeń Aptekarza
-Crime Lord
-Abbess
-Advisor
-Villager
-Fencer
-Herbalist
-Zealot
-Magistrate
-Lector
-Shipsword Master
-Thug
-Master Artist
-Aide
-Magnate
-Steward
-Cargo Scavenger
-Wizard's Apprentice
-Diplomat
-Townsman
-Custodian
-Smuggler King
-Road Captain
-Apprentice Artist
-Pedlar
-Horseman
-Riverguide
-Judicial Champion
-Student Lawyer
-Novitiate (Nun)
-Protagonist
-Investigator
-Informer
-Rat Hunter
-Reeve
-Troubadour
-Black Marketeer
-Wizard Lord
-Doktor
-Greenfish
-Spymaster
-Lawyer
-Giant Slayer
-Troupe Leader
-Herb Master
-Merchant
-Grave Robber
-Daemon Slayer
-Vagabond
-Sewer Jack
-Hedgewise
-Detective
-Witch Hunter
-Road Warden
-Bandit King
-Coach Master
-Sentry
-Governor
-Councilor
-Riverwoman
-Master Miner
-Wrecker Captain
-Noble Lord
-Demagogue
-Flagellant
-Master Investigator
-Fortune Teller
-Tax Collector
-High Priest
-Herald
-Troll Slayer
-Seneschal
-Master Merchant
-Light Cavalry Officer
-Tracker
-Pathfinder
-Dragon Slayer
-Duellist
+Crime Lord=Król Podziemia
+Abbess=Przeorysza
+Advisor=Doradca
+Villager=Chłop
+Fencer=Szermierz
+Herbalist=Zielarz
+Zealot=Gorliwiec
+Magistrate=Komornik
+Lector=Lektor
+Shipsword Master=Mistrz Żołnierzy Okrętowych
+Thug=Zakapior
+Master Artist=Mistrz Sztuki
+Aide=Doradca
+Magnate=Magnat
+Steward=Ochmistrz
+Cargo Scavenger=Szabrownik
+Wizard's Apprentice=Uczeń Czarodzieja
+Diplomat=Dyplomata
+Townsman=Mieszczanin
+Custodian=Nadzorca
+Smuggler King=Król Przemytników
+Road Captain=Kapitan Strażników Dróg
+Apprentice Artist=Uczeń Artysty
+Pedlar=Domokrążca
+Horseman=Jeździec
+Riverguide=Przewodni Rzeczny
+Judicial Champion=Szampierz Sądowy
+Student Lawyer=Student Prawa
+Novitiate (Nun)=Nowicjuszka
+Protagonist=Oprych
+Investigator=Śledczy
+Informer=Informator
+Rat Hunter=Uczeń Szczurołapa
+Reeve=Włodarz
+Troubadour=Trubadur
+Black Marketeer=Broker Informacji
+Wizard Lord=Arcymag
+Doktor=Doktor
+Greenfish=Rybak
+Spymaster=Mistrz Szpiegów
+Lawyer=Prawnik
+Giant Slayer=Zabójca Gigantów
+Troupe Leader=Przywódca Trupy
+Herb Master=Mistrz Ziołolecznictwa
+Merchant=Kupiec
+Grave Robber=Hiena Cmentarna
+Daemon Slayer=Zabójca Demonów
+Vagabond=Powsinoga
+Sewer Jack=Strażnik Kanałów
+Hedgewise=Wiedzący
+Detective=Detektyw
+Witch Hunter=Łowca Czarownic
+Road Warden=Strażnik Dróg
+Bandit King=Król Banitów
+Coach Master=Mistrz Woźniców
+Sentry=Stróż
+Governor=Gubernator
+Councilor=Gospodarz
+Riverwoman=Flisak
+Master Miner=Sztygar
+Wrecker Captain=Kapitan Łupieźców
+Noble Lord=Lord
+Demagogue=Demagog
+Flagellant=Biczownik
+Master Investigator=Starszy Śledczy
+Fortune Teller=Wróżbiarz
+Tax Collector=Poborca Podatków
+High Priest=Arcykapłan
+Herald=Herold
+Troll Slayer=ZAbójca Trolli
+Seneschal=Seneszal
+Master Merchant=Mistrz Kupiectwa
+Light Cavalry Officer=Oficer Kawalerii
+Tracker=Tropiciel
+Pathfinder=Przepatrywacz
+Dragon Slayer=Zabójca Smoków
+Duellist=Zwadźca
 Master Apothecary=Farmaceuta
-Miner
-Stevedore
-Dockhand
-Ambassador
-Honor Guard
-Smuggler
-Entertainer
-Prioress General
-Barrister
-River Pirate
-Braggart
-Outlaw Chief
-Physician's Apprentice
-Guard Officer
-Pit Fighter
-Boatman
-Rat Catcher
-Pauper
-Cat Burglar
-Thief-taker
-Runner
-Prospector
-Master Bounty Hunter
-Fellow
-Initiate
-Fence
-Treasure Hunter
-Herbwise
-River Runner
-Exterminator
-Judge
-Huffer
-Wandering Trader
-Busker
-Witchfinder General
-Seaman
-Light Cavalry Sergeant
-Recruit
-Peasant
-Artisan
-Coachman
-Master Beggar
+Miner=Górnik
+Stevedore=Doker
+Dockhand=Pomocnik Dokera
+Ambassador=Ambasador
+Honor Guard=Gwardzista
+Smuggler=Przemytnik
+Entertainer=Kuglarz
+Prioress General=Matka Przełożona
+Barrister=Obrońca
+River Pirate=Łupieżca
+Braggart=Tani Drań
+Outlaw Chief=Herszt Banitów
+Physician's Apprentice=Student Medycyny
+Guard Officer=Oficer Gwardii
+Pit Fighter=Gladiator
+Boatman=Przewoźnik
+Rat Catcher=Szczurołap
+Pauper=Biedak
+Cat Burglar=Włamywacz
+Thief-taker=Pogromva Złodziei
+Runner=Goniec
+Prospector=Poszukiwacz
+Master Bounty Hunter=Doświadczony Łowca Nagród
+Fellow=Wykładowca
+Initiate=Kleryk
+Fence=Paser
+Treasure Hunter=Łowca Skarbów
+Herbwise=Arcyzielarz
+River Runner=Szmugler Rzeczny
+Exterminator=Tępiciel
+Judge=Sędzia
+Huffer=Pilot Rzeczny
+Wandering Trader=Wędrowny Handlarz
+Busker=Muzykant
+Witchfinder General=Generał Łowców Czarownic
+Seaman=Żeglarz
+Light Cavalry Sergeant=Sierżant Kawalerii
+Recruit=Rekrut
+Peasant=Wyrobnik
+Artisan=Rzemieślnik
+Coachman=Woźnica
+Master Beggar=Mistrz Żebraków
 Apothecary-General=Mistrz Aptekarstwa
-Warrior Priest
-Scoundrel
-Bargeswain
-Prophet of Doom
-Boatswain
-Seer
-Penitent
-Scholar
+Warrior Priest=Kapłan Bitewny
+Scoundrel=Łajdak
+Bargeswain=Sternik
+Prophet of Doom=Piewca Zagłady
+Boatswain=Bosman
+Seer=Prorok
+Penitent=Pokutnik
+Scholar=Uczony
