@@ -2,8 +2,31 @@ import json
 import sys
 
 
+def read_names(file_name):
+    names = {}
+    with open(file_name) as plik:
+        for name in plik.readlines():
+            try:
+                names[name.split("=")[0]] = name.split("=")[1][:-1]
+            except IndexError:
+                names[name.split("=")[0][:-1]] = name.split("=")[0][:-1]
+    return names
+
+
+def translate(what, where):
+    translated_names = []
+    for name in where:
+        try:
+            translated_name = what[name]
+        except KeyError:
+            translated_name = name
+        translated_names.append(translated_name)
+    return translated_names
+
 def main(file_name):
     profesje = {}
+    skills = read_names("skills")
+    talents = read_names("talents")
     with open("careers") as plik:
         for profesja in plik.readlines():
             try:
@@ -28,6 +51,9 @@ def main(file_name):
             link[0] = translated_group
             desc[1] = "}".join(link)
             a["data"]["description"]["value"] = "{".join(desc)
+
+            a["data"]["skills"] = translate(skills, a["data"]["skills"])
+            a["data"]["talents"] = translate(talents, a["data"]["talents"])
             print(json.dumps(a))
 
 
