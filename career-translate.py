@@ -23,6 +23,7 @@ def translate(what, where):
         translated_names.append(translated_name)
     return translated_names
 
+
 def main(file_name):
     profesje = {}
     skills = read_names("skills")
