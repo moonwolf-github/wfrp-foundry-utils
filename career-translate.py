@@ -1,16 +1,6 @@
 import json
 import sys
-
-
-def read_names(file_name):
-    names = {}
-    with open(file_name) as plik:
-        for name in plik.readlines():
-            try:
-                names[name.split("=")[0]] = name.split("=")[1][:-1]
-            except IndexError:
-                names[name.split("=")[0][:-1]] = name.split("=")[0][:-1]
-    return names
+from utils import read_names
 
 
 def translate(what, where):
@@ -25,15 +15,9 @@ def translate(what, where):
 
 
 def main(file_name):
-    profesje = {}
+    profesje = read_names("careers")
     skills = read_names("skills")
     talents = read_names("talents")
-    with open("careers") as plik:
-        for profesja in plik.readlines():
-            try:
-                profesje[profesja.split("=")[0]] = profesja.split("=")[1][:-1]
-            except IndexError:
-                profesje[profesja.split("=")[0][:-1]] = profesja.split("=")[0][:-1]
     with open(file_name) as plik:
         for linia in plik.readlines():
             a = json.loads(linia)
