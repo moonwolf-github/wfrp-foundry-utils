@@ -2,3 +2,4 @@
 *.db
 python
 __pycache__/
+origs/
