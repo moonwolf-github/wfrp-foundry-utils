@@ -1,8 +1,8 @@
 import sys
 from utils import read_names
 
+
 def main(file_name):
-    profesje = {}
     skills = read_names("skills")
     talents = read_names("talents")
     collecting = False
@@ -23,7 +23,7 @@ def main(file_name):
                                 talents_translated = []
                                 for i in talents_choose:
                                     talents_translated.append(talents[i.strip()])
-                                #print(", ".join(talents_translated))
+                                # print(", ".join(talents_translated))
                                 tokens[1] = ", ".join(talents_translated)
                             except IndexError:
                                 pass
@@ -44,13 +44,3 @@ def main(file_name):
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         main(sys.argv[1])
-
-
-"""        for linia in plik.readlines():
-            for skill_en, skill_translated in skills.items():
-                if skill_en in linia:
-                    linia = linia.replace(skill_en, skill_translated)
-            for talent_en, talent_translated in talents.items():
-                if talent_en in linia:
-                    linia = linia.replace(talent_en, talent_translated)
-            print(linia, end="")"""
