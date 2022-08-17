@@ -5,6 +5,7 @@ from utils import read_names
 def main(file_name):
     skills = read_names("skills")
     talents = read_names("talents")
+    weapon_groups = read_names("weapon_groups")
     collecting = False
     names = False
     with open(file_name) as plik:
@@ -32,12 +33,22 @@ def main(file_name):
                     names = True
                 if "}" in linia:
                     collecting = False
+                elif what == "weapon_groups":
+                    tokens = linia.split('"')
+                    try:
+                        tokens[3] = weapon_groups[tokens[3]]
+                    except KeyError:
+                        pass
+                    linia = '"'.join(tokens)
             if "speciesSkills" in linia:
                 collecting = True
                 what = "skills"
             if "speciesTalents" in linia:
                 collecting = True
                 what = "talents"
+            if "weaponGroupDescriptions" in linia:
+                collecting = True
+                what = "weapon_groups"
             print(linia, end="")
 
 
