@@ -15,9 +15,9 @@ def translate(what, where):
 
 
 def main(file_name):
-    profesje = read_names("careers")
-    skills = read_names("skills")
-    talents = read_names("talents")
+    profesje = read_names("lang/pl/careers")
+    skills = read_names("lang/pl/skills")
+    talents = read_names("lang/pl/talents")
     with open(file_name) as plik:
         for linia in plik.readlines():
             a = json.loads(linia)

@@ -5,9 +5,9 @@ from utils import read_names
 
 # not sure if this is neccessary, maybe tables.db is enough
 def main(file_name):
-    skills = read_names("skills")
-    talents = read_names("talents")
-    careers = read_names("careers")
+    skills = read_names("lang/pl/skills")
+    talents = read_names("lang/pl/talents")
+    careers = read_names("lang/pl/careers")
     species = ["human-reiklander", "dwarf", "halfling", "welf", "helf", "human"]
     with open(file_name) as plik:
         a = json.loads(plik.read())

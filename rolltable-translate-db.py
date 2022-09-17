@@ -4,9 +4,9 @@ from utils import read_names
 
 
 def main(file_name):
-    skills = read_names("skills")
-    talents = read_names("talents")
-    careers = read_names("careers")
+    skills = read_names("lang/pl/skills")
+    talents = read_names("lang/pl/talents")
+    careers = read_names("lang/pl/careers")
     with open(file_name) as plik:
         for linia in plik.readlines():
             a = json.loads(linia)

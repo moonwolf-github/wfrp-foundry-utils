@@ -3,9 +3,9 @@ from utils import read_names
 
 
 def main(file_name):
-    skills = read_names("skills")
-    talents = read_names("talents")
-    weapon_groups = read_names("weapon_groups")
+    skills = read_names("lang/pl/skills")
+    talents = read_names("lang/pl/talents")
+    weapon_groups = read_names("lang/pl/weapon_groups")
     collecting = False
     names = False
     with open(file_name) as plik:
