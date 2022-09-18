@@ -10,15 +10,15 @@ Translates
 - careers rolltable (do it also in existing worlds for **tables.db** file)
 - bestiary
 
-You may use `translate_all` script to translate everything (in module's directory only). Put relevant files into `origs`
-subdirectory and run script with module's path as parameter. Script depends on `python3` existence.
+You may use `translate_all` script to translate everything (in the module's directory only). Put relevant files into `origs`
+subdirectory and run the script with the module's path as a parameter. Script depends on `python3` existence.
 
-As for now only Polish language is supported. Multi-language support will eventually be implemented.
+As for now, only the Polish language is supported. Multi-language support will eventually be implemented.
 # Important note
 
-I will not add `*_desc` files as it probably violates license. You have to prepare these files by yourself an put it
+I will not add `*_desc` files as it probably violates the license. You have to prepare these files by yourself and put them
 into `lang/pl/` directory. Their format is as follows:
-`original name=description`, one item per line (like ordinary INI file).
+`original name=description`, one item per line (like an ordinary INI file).
 
 For example:
 
