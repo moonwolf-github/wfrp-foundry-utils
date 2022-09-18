@@ -1,10 +1,11 @@
 import json
+import os.path
 import sys
 from utils import read_names
 
 
 def main(file_name, translate_type):
-    names = read_names(translate_type)
+    names = read_names(os.path.join("lang/pl", translate_type))
     with open(file_name) as plik:
         for linia in plik.readlines():
             a = json.loads(linia)
