@@ -23,3 +23,6 @@ into `lang/pl/` directory. Their format is as follows:
 For example:
 
 `Athletics=<p>Description</p>`
+
+![Translated Athletics](graph/athletics_pl.png)
+![Melee with custom description](graph/melee_example.png)
