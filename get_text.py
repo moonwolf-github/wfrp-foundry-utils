@@ -9,7 +9,7 @@ def main(file_name, data_type):
             if data_type == "names":
                 print(a["name"])
             if data_type == "descriptions":
-                print(f'{a["name"]}={json.dumps(a["data"]["description"]["value"], ensure_ascii=False)[1:-1]}')
+                print(f'{a["name"]}={json.dumps(a["data"]["description"]["value"], ensure_ascii=False)[1:-1]}'.replace('\\"', '"'))
 
 
 if __name__ == "__main__":
