@@ -13,7 +13,7 @@ def main(file_name):
             except KeyError:
                 translated_name = a["name"]
             a["name"] = translated_name
-            a["token"]["name"] = translated_name
+            a["prototypeToken"]["name"] = translated_name
             print(json.dumps(a))
 
 

@@ -17,9 +17,9 @@ def main(file_name, translate_type):
             try:
                 translated_desc = desc[a["name"]]
             except KeyError:
-                translated_desc = a["data"]["description"]["value"]
+                translated_desc = a["system"]["description"]["value"]
             a["name"] = translated_name
-            a["data"]["description"]["value"] = translated_desc
+            a["system"]["description"]["value"] = translated_desc
             print(json.dumps(a, ensure_ascii=False))
 
 

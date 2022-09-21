@@ -26,20 +26,20 @@ def main(file_name):
             except KeyError:
                 translated_name = a["name"]
             try:
-                translated_group = profesje[a["data"]["careergroup"]["value"]]
+                translated_group = profesje[a["system"]["careergroup"]["value"]]
             except KeyError:
-                translated_group = a["data"]["careergroup"]["value"]
+                translated_group = a["system"]["careergroup"]["value"]
             a["name"] = translated_name
-            a["data"]["careergroup"]["value"] = translated_group
-            desc = a["data"]["description"]["value"].split("{")
+            a["system"]["careergroup"]["value"] = translated_group
+            desc = a["system"]["description"]["value"].split("{")
             link = desc[1].split("}")
             link[0] = translated_group
             desc[1] = "}".join(link)
-            a["data"]["description"]["value"] = "{".join(desc)
+            a["system"]["description"]["value"] = "{".join(desc)
 
-            a["data"]["skills"] = translate(skills, a["data"]["skills"])
-            a["data"]["talents"] = translate(talents, a["data"]["talents"])
-            print(json.dumps(a))
+            a["system"]["skills"] = translate(skills, a["system"]["skills"])
+            a["system"]["talents"] = translate(talents, a["system"]["talents"])
+            print(json.dumps(a, ensure_ascii=False))
 
 
 if __name__ == "__main__":
